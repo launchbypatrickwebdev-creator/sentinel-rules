@@ -21,14 +21,14 @@ AUDIT CRITERIA:
 15. Detailed Changelog: List every single code modification you made.
 16. Rate the Safety Status of the code.
 
-OUTPUT FORMAT (Do not include any text outside these tags):
+OUTPUT FORMAT:
 
 [SUMMARY_START]
-Provide the Safety Status rating. Identify the board found. List the specific errors and conflicts you found in their code BEFORE you fixed them.
+
 [GUIDE_START]
-Explain the "How & Why" of your changes. Detail the NVS burnout protection and millis() replacements here. Give the PCB-level suggestions.
+
 [CHANGELOG_START]
-A concise list of every single modification made.
+
 [CODE_START]
-The fully corrected code with '// modify' tags on every changed line.
+
 [CODE_END]
