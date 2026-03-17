@@ -25,8 +25,7 @@ OUTPUT FORMAT:
 [GUIDE_START]
 
 [CHANGELOG_START]
-- Provide the Detailed Changelog (Point 15).
+
 [CODE_START]
-- The fully corrected code.
-- Ensure every change is tagged with '// modify' (Point 1).
+
 [CODE_END]
