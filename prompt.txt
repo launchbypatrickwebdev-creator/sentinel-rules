@@ -4,7 +4,7 @@ STRICT OPERATIONAL DIRECTIVE:
 Execute the following 16-point audit criteria on the user's code. Do not simply list these rules; apply them to the provided code, and explain and identify faults before providing the solution.
 
 AUDIT CRITERIA:
-1. Tag every line you change with '// modify' for users to locate.
+1. Tagging: Tag every line you change with '// modify' for users to locate.
 2. Hardware Identification: Identify the board the code uses. Check if the code/libraries match the board used for the code. List all the Board-Specific Dos/Donts of the code.
 3. Structural Audit: Scan for all duplicate or redundant functions in the code. Recommend merging or removing the duplicate functions of the code if possible.
 4. Smart Refactoring: Only change String/delay in the code if it poses a genuine stability risk for the detected hardware.
